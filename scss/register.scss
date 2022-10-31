@@ -144,7 +144,7 @@ $fw-bold:700;
             width: 60px;
             height: 0px;
             left: 24px;
-            top: 50px;
+            top: 40px;
             background: #030303;
             border: 1px solid $bg-c1-dark;
         }
@@ -262,6 +262,21 @@ $fw-bold:700;
                     line-height: 24px;
                     color: #F50E0E;
                 }
+                p{
+                    position: absolute;
+                    left: 0%;
+                    right: 0%;
+                    top: 100%;
+                    bottom: 0%;
+                }
+                #err-email{
+                    position: absolute;
+                    left: 0%;
+                    right: 0%;
+                    top: 150%;
+                    bottom: 0%;
+                }
+
                 .underline{
                     position: absolute;
                     left: 0%;
@@ -281,6 +296,7 @@ $fw-bold:700;
                 left: 120px;
                 top: 218px;
                 border: none;
+                margin-top: 20px;
                 input{
                     position: absolute;
                     left: 0%;
@@ -306,6 +322,13 @@ $fw-bold:700;
                     color: #F50E0E;
 
                 }
+                p{
+                    position: absolute;
+                    left: 0%;
+                    right: 0%;
+                    top: 100%;
+                    bottom: 0%;
+                }
                 .underline{
                     position: absolute;
                     left: 0%;
@@ -325,6 +348,7 @@ $fw-bold:700;
                     left: 120px;
                     top: 302px;
                     border: none;
+                    margin-top: 20px;
                     input{
                         position: absolute;
                         left: 0%;
@@ -349,6 +373,20 @@ $fw-bold:700;
                         line-height: 24px;
                         color: #F50E0E;
     
+                    }
+                    p{
+                        position: absolute;
+                        left: 0%;
+                        right: 0%;
+                        top: 100%;
+                        bottom: 0%;
+                    }
+                    #err-confirm-password{
+                        position: absolute;
+                        left: 0%;
+                        right: 0%;
+                        top: 150%;
+                        bottom: 0%;
                     }
                     .underline{
                         position: absolute;
@@ -395,6 +433,20 @@ $fw-bold:700;
                         color: #F50E0E;
     
                     }
+                    p{
+                        position: absolute;
+                        left: 0%;
+                        right: 0%;
+                        top: 100%;
+                        bottom: 0%;
+                    }
+                    #err-name{
+                        position: absolute;
+                        left: 0%;
+                        right: 0%;
+                        top: 150%;
+                        bottom: 0%;
+                    }
                     .underline{
                         position: absolute;
                         left: 0%;
@@ -414,6 +466,7 @@ $fw-bold:700;
                     height: 51px;
                     left: 696px;
                     top: 218px;
+                    margin-top: 20px;
                     input{
                         position: absolute;
                         left: 0%;
@@ -439,6 +492,20 @@ $fw-bold:700;
                         color: #F50E0E;
     
                     }
+                    p{
+                        position: absolute;
+                        left: 0%;
+                        right: 0%;
+                        top: 100%;
+                        bottom: 0%;
+                    }
+                    #err-phone{
+                        position: absolute;
+                        left: 0%;
+                        right: 0%;
+                        top: 150%;
+                        bottom: 0%;
+                    }
                     .underline{
                         position: absolute;
                         left: 0%;
@@ -451,6 +518,8 @@ $fw-bold:700;
                 }
 
                 .gender-input{
+                    position: absolute;
+                    margin-top: 20px;
                     h6{
                         position: absolute;
                         width: 105px;
@@ -463,6 +532,14 @@ $fw-bold:700;
                         font-size: 30px;
                         line-height: 36px;
                         color: #000000;
+                    }
+                    p{
+                        position: absolute;
+                        left: 696px;
+                        right: 0%;
+                        top: 380px;
+                        bottom: 0%;
+                        width: 250px;
                     }
                     .men{
                         position: absolute;

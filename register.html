@@ -62,45 +62,65 @@
         <div class="email-input">
           <input class="form-control no-border" id="email"  placeholder="Email"/>
           <h6>(*)</h6>
+
           <div class="underline"></div>
+          <p class="text text-danger mt-2" style="display: none;" id="err-required-email"></p>
+          <p id="err-email" class="text text-danger" style="display:none;"></p>
+      
         </div>
         <div class="password-input">
           <input  type="password" class="form-control no-border" id="password"  placeholder="Password"/>
           <h6>(*)</h6>
+        
+          <p class="text text-danger mt-2" style="display: none;" id="err-required-password"></p>
           <div class="underline"></div>
         </div>
         <div class="passwordconfirm-input">
           <input  type="password" class="form-control no-border" id="password-confirm" placeholder="PasswordConfirm" />
           <h6>(*)</h6>
+          <p class="text text-danger mt-2" style="display: none;" id="err-required-confirmpassword"></p>
+          <p class="text text-danger mt-2" style="display: none;" id="err-confirm-password"></p>
           <div class="underline"></div>
         </div>
+
         <div class="name-input">
           <input class="form-control no-border" id="name"  placeholder="Name" />
           <h6>(*)</h6>
+     
+          <p class="text text-danger mt-2" style="display: none;" id="err-required-name"></p>
+          <p id="err-name" class="text text-danger" style="display:none;"></p>
           <div class="underline"></div>
         </div>
+
         <div class="phone-input">
           <input  class="form-control no-border" id="phone"  placeholder="Phone"/>
           <h6>(*)</h6>
+          <p class="text text-danger mt-2" style="display: none;" id="err-required-phone"></p>
+          <p id="err-phone" class="text text-danger" style="display:none;"></p>
           <div class="underline"></div>
         </div>
-        <div class="gender-input  ">
+        <div class="gender-input ">
           <h6>Gender</h6>
           <div class="form-check men d-flex  ">
-              <input type="radio" id="men" name="gender" value="male">
+              <input type="radio" id="men" name="gender" value="true">
             <label for="specifyColor">Male</label>
              
           </div>
           <div class="form-check woman d-flex  ">
-            <input type="radio" id="woman" name="gender" value="female">
+            <input type="radio" id="woman" name="gender" value="false">
           <label for="specifyColor">Female</label>
            
         </div>
-         
-       
+        <p class="text text-danger mt-2" style="display: none;" id="err-required-gender"></p>
+
+      
+     
+    
+   
+     
        
         </div>
-        <button class="submit-button">
+        <button id="register-button" class="submit-button">
             Submit
         </button>
    
@@ -179,7 +199,10 @@
     </div>  
     
   </div>
-  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.1.2/axios.min.js" integrity="sha512-bHeT+z+n8rh9CKrSrbyfbINxu7gsBmSHlDCb3gUF1BjmjDzKhoKspyB71k0CIRBSjE5IVQiMMVBgCWjF60qsvA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="./controller/Register.js"></script>
+  <script src="./models/User.js"></script>
+  <script src="./util/Validation.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
     integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous">
   </script>

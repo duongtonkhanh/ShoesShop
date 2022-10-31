@@ -123,7 +123,7 @@
   width: 60px;
   height: 0px;
   left: 24px;
-  top: 50px;
+  top: 40px;
   background: #030303;
   border: 1px solid #000000;
 }
@@ -243,6 +243,20 @@
   line-height: 24px;
   color: #F50E0E;
 }
+.register .register-inner-content .lower-content .email-input p {
+  position: absolute;
+  left: 0%;
+  right: 0%;
+  top: 100%;
+  bottom: 0%;
+}
+.register .register-inner-content .lower-content .email-input #err-email {
+  position: absolute;
+  left: 0%;
+  right: 0%;
+  top: 150%;
+  bottom: 0%;
+}
 .register .register-inner-content .lower-content .email-input .underline {
   position: absolute;
   left: 0%;
@@ -260,6 +274,7 @@
   left: 120px;
   top: 218px;
   border: none;
+  margin-top: 20px;
 }
 .register .register-inner-content .lower-content .password-input input {
   position: absolute;
@@ -286,6 +301,13 @@
   line-height: 24px;
   color: #F50E0E;
 }
+.register .register-inner-content .lower-content .password-input p {
+  position: absolute;
+  left: 0%;
+  right: 0%;
+  top: 100%;
+  bottom: 0%;
+}
 .register .register-inner-content .lower-content .password-input .underline {
   position: absolute;
   left: 0%;
@@ -302,6 +324,7 @@
   left: 120px;
   top: 302px;
   border: none;
+  margin-top: 20px;
 }
 .register .register-inner-content .lower-content .passwordconfirm-input input {
   position: absolute;
@@ -327,6 +350,20 @@
   font-size: 20px;
   line-height: 24px;
   color: #F50E0E;
+}
+.register .register-inner-content .lower-content .passwordconfirm-input p {
+  position: absolute;
+  left: 0%;
+  right: 0%;
+  top: 100%;
+  bottom: 0%;
+}
+.register .register-inner-content .lower-content .passwordconfirm-input #err-confirm-password {
+  position: absolute;
+  left: 0%;
+  right: 0%;
+  top: 150%;
+  bottom: 0%;
 }
 .register .register-inner-content .lower-content .passwordconfirm-input .underline {
   position: absolute;
@@ -370,6 +407,20 @@
   line-height: 24px;
   color: #F50E0E;
 }
+.register .register-inner-content .lower-content .name-input p {
+  position: absolute;
+  left: 0%;
+  right: 0%;
+  top: 100%;
+  bottom: 0%;
+}
+.register .register-inner-content .lower-content .name-input #err-name {
+  position: absolute;
+  left: 0%;
+  right: 0%;
+  top: 150%;
+  bottom: 0%;
+}
 .register .register-inner-content .lower-content .name-input .underline {
   position: absolute;
   left: 0%;
@@ -385,6 +436,7 @@
   height: 51px;
   left: 696px;
   top: 218px;
+  margin-top: 20px;
 }
 .register .register-inner-content .lower-content .phone-input input {
   position: absolute;
@@ -411,6 +463,20 @@
   line-height: 24px;
   color: #F50E0E;
 }
+.register .register-inner-content .lower-content .phone-input p {
+  position: absolute;
+  left: 0%;
+  right: 0%;
+  top: 100%;
+  bottom: 0%;
+}
+.register .register-inner-content .lower-content .phone-input #err-phone {
+  position: absolute;
+  left: 0%;
+  right: 0%;
+  top: 150%;
+  bottom: 0%;
+}
 .register .register-inner-content .lower-content .phone-input .underline {
   position: absolute;
   left: 0%;
@@ -419,6 +485,10 @@
   bottom: 0%;
   width: 482px;
   border: 5px solid #AE18E2;
+}
+.register .register-inner-content .lower-content .gender-input {
+  position: absolute;
+  margin-top: 20px;
 }
 .register .register-inner-content .lower-content .gender-input h6 {
   position: absolute;
@@ -432,6 +502,14 @@
   font-size: 30px;
   line-height: 36px;
   color: #000000;
+}
+.register .register-inner-content .lower-content .gender-input p {
+  position: absolute;
+  left: 696px;
+  right: 0%;
+  top: 380px;
+  bottom: 0%;
+  width: 250px;
 }
 .register .register-inner-content .lower-content .gender-input .men {
   position: absolute;
