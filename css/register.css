@@ -44,8 +44,8 @@
 
 .header-inner-content .header-menu .icon-cart {
   position: absolute;
-  right: 53.03%;
-  top: 8.33%;
+  right: 20%;
+  top: 20%;
   bottom: 5.56%;
   width: 31px;
   height: 31px;
@@ -60,9 +60,8 @@
 
 .header-inner-content .header-menu .amount {
   position: absolute;
-  left: 46.97%;
-  right: 0%;
-  top: 0%;
+  left: 80%;
+  top: 15%;
   bottom: 0%;
 }
 
