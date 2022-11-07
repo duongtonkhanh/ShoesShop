@@ -1,0 +1,26 @@
+.container_index {
+    max-width: 1300px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.carousel-item {
+    position: relative;
+}
+
+.image_index {
+    position: absolute;
+    width: 821px;
+    height: 392px;
+    left: 86px;
+    top: 5px;
+}
+
+.content_index{
+    position: absolute;
+    max-width: 300px;
+    width: 821px;
+    height: 392px;
+    right: 100px;
+    top: 100px;
+}
